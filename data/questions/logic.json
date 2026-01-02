@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "data": {
+    "category": {
+      "id": "logic",
+      "name": "邏輯推理"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question": "一列火車長 100 公尺，以 10 公尺/秒的速度通過 50 公尺長的隧道，需要多久？",
+        "options": [
+          "10 秒",
+          "15 秒",
+          "20 秒",
+          "25 秒"
+        ],
+        "answer": 1,
+        "hint": "火車要完全通過隧道",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "message": "Logic questions fetched successfully"
+}

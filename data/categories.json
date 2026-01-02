@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "data": {
+    "categories": [
+      {
+        "id": "riddle",
+        "name": "謎語"
+      },
+      {
+        "id": "life",
+        "name": "生活常識"
+      },
+      {
+        "id": "logic",
+        "name": "邏輯推理"
+      }
+    ]
+  },
+  "message": "Categories fetched successfully"
+}

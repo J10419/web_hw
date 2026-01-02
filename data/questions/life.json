@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "data": {
+    "category": {
+      "id": "life",
+      "name": "生活常識"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question": "冰箱主要是利用什麼方式來降溫？",
+        "options": [
+          "加熱",
+          "蒸發吸熱",
+          "摩擦",
+          "燃燒"
+        ],
+        "answer": 1,
+        "hint": "跟物理變化有關",
+        "difficulty": "easy"
+      },
+      {
+        "id": 2,
+        "question": "人一天平均需要喝多少水？",
+        "options": [
+          "500ml",
+          "1000ml",
+          "2000ml",
+          "4000ml"
+        ],
+        "answer": 2,
+        "hint": "常見健康建議",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "message": "Life questions fetched successfully"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "data": {
+    "category": {
+      "id": "riddle",
+      "name": "謎語"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question": "什麼東西早上四隻腳，中午兩隻腳，晚上三隻腳？",
+        "options": [
+          "狗",
+          "人",
+          "桌子",
+          "椅子"
+        ],
+        "answer": 1,
+        "hint": "跟年齡有關",
+        "difficulty": "easy"
+      },
+      {
+        "id": 2,
+        "question": "什麼東西有頭無腳，有眼無眉？",
+        "options": [
+          "魚",
+          "針",
+          "蛇",
+          "河"
+        ],
+        "answer": 1,
+        "hint": "生活中很小的東西",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "message": "Riddle questions fetched successfully"
+}
+
