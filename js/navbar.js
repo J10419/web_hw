@@ -1,5 +1,5 @@
 function renderNavbar() {
-    const navbarContainer = document.querySelector('#navbar-area');
+    const navbarContainer = document.querySelector('#navbar');
 
     if (!navbarContainer) return;
 
@@ -13,7 +13,7 @@ function renderNavbar() {
         htmlPath = './';
     }
 
-    const logoUrl = "img/logo.jpg";
+    const logoUrl = `${rootPath}img/logo.jpg`;
 
     const schoolUrl = "https://www.pu.edu.tw/";
 
@@ -21,9 +21,9 @@ function renderNavbar() {
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
 
-          <a class="navbar-brand" href="${rootPath}index.html">
-            <img src="${logoUrl}" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-circle">web
-          </a>
+        <span class="navbar-brand">
+            <img src="${logoUrl}" alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-circle">
+          </span>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -47,9 +47,7 @@ function renderNavbar() {
             </ul>
 
             <div class="d-flex">
-                <a href="${schoolUrl}" target="_blank" class="btn btn-outline-light btn-sm">
-                    靜宜大學
-                </a>
+                <a href="${schoolUrl}" target="_blank" class="btn btn-outline-light btn-sm">靜宜大學</a>
             </div>
 
           </div>
