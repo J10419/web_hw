@@ -39,10 +39,7 @@ function renderNavbar() {
                 <a class="nav-link" href="${htmlPath}schedule.html">課表</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="${htmlPath}rps.html">猜拳</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="${htmlPath}quiz.html">猜謎</a>
+                <a class="nav-link" href="${htmlPath}game-menu.html">遊戲</a>
               </li>
             </ul>
 
