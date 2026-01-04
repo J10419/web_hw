@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課表</title>
+    <link rel="icon" href="../img/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        .table {
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        .table th,.table td {
+            vertical-align: middle;
+            text-align: center;
+            height: 60px;
+            border-color: #495057;
+        }
+
+        .table-header {
+            font-weight: bold;
+            background-color: #212529;
+        }
+
+        .col-period {
+            width: 150px;
+            min-width: 150px;
+            background-color: #212529;
+            font-weight: bold;
+        }
+
+        .col-period .small {
+            white-space: nowrap;
+            display: block;
+        }
+
+        .lunch-break {
+            background-color: #212529 !important;
+            color: #adb5bd;
+            font-weight: bold;
+            height: 40px !important;
+        }
+
+        .col-period {
+            width: 80px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <div class="container-fluid mt-5 mb-5 px-4">
+
+        <h2 class="text-center fw-bold mb-4">大二上課表</h2>
+
+        <div class="table-responsive shadow rounded">
+            <table class="table table-bordered table-dark mb-0">
+
+                <thead>
+                    <tr>
+                        <th scope="col" class="col-period">節次\日期</th>
+                        <th scope="col">星期一</th>
+                        <th scope="col">星期二</th>
+                        <th scope="col">星期三</th>
+                        <th scope="col">星期四</th>
+                        <th scope="col">星期五</th>
+                        <th scope="col">星期六</th>
+                        <th scope="col">星期日</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row" class="period-col">第一節<br><span class="period-col">08:10-09:00</span></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第二節<br><span class="period-col">09:10-10:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">資料結構</div>
+                            <div class="fw-bold">劉建興</div>
+                            <div>主顧316</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">網路通訊概論</div>
+                            <div class="fw-bold">翁永昌</div>
+                            <div>主顧303</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">邏輯設計</div>
+                            <div class="fw-bold">羅峻旗</div>
+                            <div>主顧301</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第三節<br><span class="period-col">10:10-11:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">資料結構</div>
+                            <div class="fw-bold">劉建興</div>
+                            <div>主顧316</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">網路通訊概論</div>
+                            <div class="fw-bold">翁永昌</div>
+                            <div>主顧303</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">邏輯設計</div>
+                            <div class="fw-bold">羅峻旗</div>
+                            <div>主顧301</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">宗教倫理的生活實踐</div>
+                            <div class="fw-bold">許德訓</div>
+                            <div>伯鐸421</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第四節<br><span class="period-col">11:10-12:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">資料結構</div>
+                            <div class="fw-bold">劉建興</div>
+                            <div>主顧316</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">網路通訊概論</div>
+                            <div class="fw-bold">翁永昌</div>
+                            <div>主顧303</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">邏輯設計</div>
+                            <div class="fw-bold">羅峻旗</div>
+                            <div>主顧301</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">宗教倫理的生活實踐</div>
+                            <div class="fw-bold">許德訓</div>
+                            <div>伯鐸421</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="lunch-break">
+                        <td colspan="8">午休 12:10 ~ 13:00</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第五節<br><span class="period-col">13:10-14:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">UNIX實作</div>
+                            <div class="fw-bold">翁添雄</div>
+                            <div>主顧322</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">數位敘事與動畫製作</div>
+                            <div class="fw-bold">陳鈺淋</div>
+                            <div>任垣142</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">歌劇、藝術與愛情</div>
+                            <div class="fw-bold">阮文池</div>
+                            <div>任垣443</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第六節<br><span class="period-col">14:10-15:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">UNIX實作</div>
+                            <div class="fw-bold">翁添雄</div>
+                            <div>主顧322</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">數位敘事與動畫製作</div>
+                            <div class="fw-bold">陳鈺淋</div>
+                            <div>任垣142</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">歌劇、藝術與愛情</div>
+                            <div class="fw-bold">阮文池</div>
+                            <div>任垣443</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第七節<br><span class="period-col">15:10-16:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">UNIX實作</div>
+                            <div class="fw-bold">翁添雄</div>
+                            <div>主顧322</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第八節<br><span class="period-col">16:10-17:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">智慧互動設計實務</div>
+                            <div class="fw-bold">馬宏諭</div>
+                            <div>計206</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">專案系統開發實務</div>
+                            <div class="fw-bold">胡學誠</div>
+                            <div>主顧316</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第九節<br><span class="period-col">17:10-18:00</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">智慧互動設計實務</div>
+                            <div class="fw-bold">馬宏諭</div>
+                            <div>計206</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">專案系統開發實務</div>
+                            <div class="fw-bold">胡學誠</div>
+                            <div>主顧316</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第十節<br><span class="period-col">18:05-18:55</span></th>
+                        <td>
+                            <div class="fw-bold fs-5">智慧互動設計實務</div>
+                            <div class="fw-bold">馬宏諭</div>
+                            <div>計206</div>
+                        </td>
+                        <td>
+                            <div class="fw-bold fs-5">專案系統開發實務</div>
+                            <div class="fw-bold">胡學誠</div>
+                            <div>主顧316</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第十一節<br><span class="period-col">19:00-19:50</span>
+                        </th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第十二節<br><span class="period-col">19:55-20:45</span>
+                        </th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="period-col">第十三節<br><span class="period-col">20:50-21:40</span>
+                        </th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer id="footer" class="bg-light text-center py-3 mt-5"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/footer.js"></script>
+
+</body>
+
+</html>
