@@ -138,7 +138,7 @@ function checkAnswer(selectedIndex, selectedBtn) {
         resultMsg.className = "text-success fw-bold mb-3";
     } else {
         selectedBtn.className = 'btn btn-danger option-btn p-3';
-        allBtns[correctIndex].className = 'btn btn-success option-btn p-3'; // 顯示正確答案
+        allBtns[correctIndex].className = 'btn btn-success option-btn p-3';
         resultMsg.textContent = "錯";
         resultMsg.className = "text-danger fw-bold mb-3";
     }
@@ -150,7 +150,9 @@ nextBtn.onclick = () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < currentQuestions.length) {
         loadQuestion();
-    } else {
+    }
+
+    else {
         endGame();
     }
 };
